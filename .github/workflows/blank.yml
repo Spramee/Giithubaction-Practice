@@ -38,7 +38,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Run one more single line script
+      - name: "Run one more single line script"
         run: echo print the single line script
       - name: Run the one more multi line script
         run: 
